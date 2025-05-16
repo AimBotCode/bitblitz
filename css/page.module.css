@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+}
+.header {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.flex {
+    flex: 1
+}
+
+.logoImg {
+    width: 6.25em;
+    height: 6.25em;
+}
+
+.discordButton {
+    border: none;
+    float: center;
+    background-color: transparent;
+    border-style:dashed;
+    margin-right: 12.5rem;
+    color: white;
+    width: 15.625rem;
+    height: 3.125rem; 
+    border-radius: 3.125rem;
+    font-family: Fredoka;
+    font-size: large;
+    cursor: pointer;
+    transition: border-style .6s, background-color .6s, opacity .4s;
+}
+
+.transition {
+    float: right;
+    margin-right: 1rem;
+}
+
+.transitionButton {
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: Fredoka;
+    font-size: large;
+    margin-top: 1.25em;
+    margin-right: 1.25em;
+    float: right;
+    border: none;
+    cursor: pointer;
+}
+
+.discordButton:hover {
+    background-color: rgba(88,101,242,255);
+    border-style:none;
+    opacity: .9;
+}
+
+.discordButton:active {
+    opacity: .7;
+} 
+
+.titleRow {
+    margin: auto;
+    width: 50%;
+}
+
+.title {
+    color: white;
+    margin-top: 1.752rem;
+    margin-bottom: 0.01rem;
+    font-family: Fredoka;
+    font-size: 9.376rem;
+}
